@@ -18,7 +18,7 @@ char gszErrors[STK_NUMBER_OF_ERRORS][STK_MAX_ERROR_CHARS];
 
 
 /**************************************************************************
- Function: 	 	processError
+ Function: 	 	processError (DO NOT EDIT)
 
  Description: Process the error code passed to this routine
 
@@ -36,7 +36,7 @@ static void processError (const char *pszFunctionName, int errorCode)
 }
 
 /**************************************************************************
- Function: 	 	stkLoadErrorMessages
+ Function: 	 	stkLoadErrorMessages (DO NOT EDIT)
 
  Description: Initializes the string of error messages. LOAD_ERRORS is a
  	 	 	 	 	 	  macro defined in the header file.
